@@ -156,7 +156,7 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 [forks-url]: https://github.com/kr1stj0n/testREADME/network/members
 [stars-shield]: https://img.shields.io/github/stars/kr1stj0n/testREADME.svg?style=for-the-badge
 [stars-url]: https://github.com/kr1stj0n/testREADME/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kr1stj0n/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kr1stj0n/testREADME.svg?style=for-the-badge
 [issues-url]: https://github.com/kr1stj0n/testREADME/issues
 [license-shield]: https://img.shields.io/github/license/kr1stj0n/testREADME.svg?style=for-the-badge
 [license-url]: https://github.com/kr1stj0n/testREADME/blob/main/LICENSE.txt
