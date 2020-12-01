@@ -156,3 +156,14 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 [stars-url]: https://github.com/kr1stj0n/testREADME/stargazers
 [issues-shield]: https://img.shields.io/github/issues/kr1stj0n/testREADME.svg?style=for-the-badge
 [issues-url]: https://github.com/kr1stj0n/testREADME/issues
+
+Automated testing framework
+===========================
+
+This document provides detailed information on the Automated testing framework
+we use to evaluate the efficiency and performance of PEP-DNA of PEP-DNA.
+The framework consists of 6 bash scripts:
+
+'param.sh' contains all the necessary information about testing environments.
+The user
+
