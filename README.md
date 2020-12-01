@@ -98,7 +98,7 @@ Additional tools are required to configure Linux hosts, run the experiments and 
    sudo make all
    sudo make install
    ```
-   To configure PEP-DNA without RINA support ommit ```--with-rina``` flag. 
+   To configure PEP-DNA without RINA support ommit ```--with-rina``` flag. Use ```--with-debug``` to build PEP-DNA with DEBUG flag. *Note* that building in debug mode will reduce the performance of the proxy and print detailed logging in kern.log file. When PEP-DNA runs at the same host as the server, it needs to be configured with ```---with-localhost``` flag in order to enable full transpacency (More details will be provided later)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
