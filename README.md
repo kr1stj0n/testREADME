@@ -147,7 +147,6 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<p align="center">
 [contributors-shield]: https://img.shields.io/github/contributors/kr1stj0n/testREADME.svg?style=for-the-badge
 [contributors-url]: https://github.com/kr1stj0n/testREADME/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/kr1stj0n/testREADME.svg?style=for-the-badge
@@ -156,4 +155,3 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 [stars-url]: https://github.com/kr1stj0n/testREADME/stargazers
 [issues-shield]: https://img.shields.io/github/issues/kr1stj0n/testREADME.svg?style=for-the-badge
 [issues-url]: https://github.com/kr1stj0n/testREADME/issues
-</p>
