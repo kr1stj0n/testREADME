@@ -31,27 +31,21 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#intro">Introduction</a>
-      <ul>
-        <li><a href="#build">Build instructions</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
+        <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+        <ol>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#build">Build instructions</a>
+        <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+        </ul>
+        </li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        <li><a href="#license">License</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -60,20 +54,12 @@
 <!-- INTRODUCTION -->
 ## Introduction
 
-PEP-DNA is a Performance Enhancing Proxy designed specifically for Deploying new Network Architectures. It is implemented in the Linux kernel and can be installed wherever a translation needs to occur between a new architecture and TCP/IP domains. PEP-DNA is currently able to interconnect a TCP connection with (i) another TCP connection, and (ii) the Recursive InterNetwork Architecture (for information about RINA please visit http://pouzinsociety.org). This README file provides information on repeating and replicating the results of the paper. For more information on how to use PEP-DNA in different scenarios, check Tutorials on the <a href="https://github.com/kr1stj0n/testREADME/wiki">Wiki pages »</a>
+PEP-DNA is a Performance Enhancing Proxy designed specifically for Deploying new Network Architectures. It is implemented in the Linux kernel and can be installed wherever a translation needs to occur between a new architecture and TCP/IP domains. PEP-DNA is currently able to interconnect a TCP connection with (i) another TCP connection, and (ii) the Recursive InterNetwork Architecture (Visit http://pouzinsociety.org to read more about RINA). This README file provides information on repeating and replicating the results of the paper. For more information on how to use PEP-DNA in different scenarios, check the Tutorials on the <a href="https://github.com/kr1stj0n/testREADME/wiki">Wiki pages</a>
 
-### Build instructions
+<!-- BUILD INSTRUCTIONS -->
+## Build instructions
 
-* []()
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
+We have tested PEP-DNA with Ubuntu 16.04 - 18.04, Debian 8 and 9 with kernel versions between 4.1.x and 4.19.x.
 
 ### Prerequisites
 
