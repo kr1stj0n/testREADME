@@ -159,4 +159,4 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 [issues-shield]: https://img.shields.io/github/issues/kr1stj0n/testREADME.svg?style=for-the-badge
 [issues-url]: https://github.com/kr1stj0n/testREADME/issues
 [license-shield]: https://img.shields.io/github/license/kr1stj0n/testREADME.svg?style=for-the-badge
-[license-url]: https://github.com/kr1stj0n/testREADME/blob/main/LICENSE.txt
+[license-url]: https://github.com/kr1stj0n/testREADME/blob/main/LICENSE
