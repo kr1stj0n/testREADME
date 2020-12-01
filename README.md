@@ -60,23 +60,23 @@ PEP-DNA is a Performance Enhancing Proxy designed specifically for Deploying new
 ## Build instructions
 
 We have tested PEP-DNA with Ubuntu 16.04, 18.04, Debian 8 and 9 with kernel versions between 4.1.x and 4.19.x. In order to run all the experiments described in the paper, PEP-DNA needs to be built with RINA support. RINA stack is available at https://github.com/IRATI/stack. We also include all the RINA kernel modules and libraries in this repository to facilitate the installation process.
+*Note* that a user with sudo privileges is required to load PEP-DNA and RINA kernel modules and to apply other commands.
 
 ### Prerequisites
 
 First, install user-space dependencies which are required to build RINA.
   ```sh
-  apt-get update
-  apt-get install build-essentials autoconf automake libtool pkg-config git g++ libssl-dev protobuf-compiler libprotobuf-dev socat python python3 linux-headers-$(uname -r)
+  sudo apt-get update
+  sudo apt-get install build-essentials autoconf automake libtool pkg-config git g++ libssl-dev protobuf-compiler libprotobuf-dev socat python python3 linux-headers-$(uname -r)
   ```
 Install libnl-3-dev for Netlink sockets support.
    ```sh
-   apt-get install libnl-3-dev
+   sudo apt-get install libnl-3-dev
    ```
 Additional tools are required to configure Linux hosts, run the experiments and collect information.
    ```sh
-   sudo apt install sysstat ethtool cpufrequtils httping httperf apache2
+   sudo apt-get install sysstat ethtool cpufrequtils httping httperf apache2
    ```
-
 
 ### Installation
 
@@ -88,8 +88,6 @@ Additional tools are required to configure Linux hosts, run the experiments and 
    ```sh
    npm install
    ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
