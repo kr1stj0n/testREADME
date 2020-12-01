@@ -11,10 +11,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kr1stj0n/testREADME">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">PEP-DNA</h3>
 
   <p align="center">
@@ -162,4 +158,5 @@ Project Link: [https://github.com/kr1stj0n/testREADME](https://github.com/kr1stj
 [stars-url]: https://github.com/kr1stj0n/testREADME/stargazers
 [issues-shield]: https://img.shields.io/github/issues/kr1stj0n/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/kr1stj0n/testREADME/issues
+[license-shield]: https://img.shields.io/github/license/kr1stj0n/testREADME.svg?style=for-the-badge
 [license-url]: https://github.com/kr1stj0n/testREADME/blob/main/LICENSE.txt
