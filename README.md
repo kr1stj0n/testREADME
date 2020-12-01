@@ -1,9 +1,11 @@
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<p align="center">
+        [![Contributors][contributors-shield]][contributors-url]
+        [![Forks][forks-shield]][forks-url]
+        [![Stargazers][stars-shield]][stars-url]
+        [![Issues][issues-shield]][issues-url]
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -128,7 +130,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL License. See `LICENSE.txt` for more information.
+Distributed under the GPL License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
