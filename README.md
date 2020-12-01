@@ -16,7 +16,7 @@
   <p align="center">
     PEP-DNA: a Performance Enhancing Proxy for Deploying Network Architectures
     <br />
-    <a href="https://github.com/kr1stj0n/testREADME"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kr1stj0n/testREADME/wiki"><strong>Explore the Wiki »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kr1stj0n/testREADME">View Demo</a>
