@@ -80,13 +80,23 @@ Additional tools are required to configure Linux hosts, run the experiments and 
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo (We recommend to clone the repo in the root directory so that it matches the path used in the scripts)
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   cd /
+   git clone https://github.com//pep-dna.git
    ```
-2. Install NPM packages
+2. Build and install RINA's kernel-space and user-space software
    ```sh
-   npm install
+   cd /pep-dna
+   sudo ./configure
+   sudo make install
+   ```
+3. Configure and install PEP-DNA
+   ```sh
+   cd /pep-dna/pepdna
+   sudo ./configure
+   sudo make all
+   sudo make install
    ```
 
 <!-- USAGE EXAMPLES -->
