@@ -64,11 +64,15 @@ We have tested PEP-DNA with Ubuntu 16.04, 18.04, Debian 8 and 9 with kernel vers
 ### Prerequisites
 
 First, install user-space dependencies which are required to build RINA.
-
   ```sh
   apt-get update
   apt-get install build-essentials autoconf automake libtool pkg-config git g++ libssl-dev protobuf-compiler libprotobuf-dev socat python python3 linux-headers-$(uname -r)
   ```
+Install libnl-3-dev for Netlink sockets support.
+   ```sh
+   apt-get install libnl-3-dev
+   ```
+
 
 ### Installation
 
