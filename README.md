@@ -94,10 +94,11 @@ Additional tools are required to configure Linux hosts, run the experiments and 
 3. Configure and install PEP-DNA
    ```sh
    cd /pep-dna/pepdna
-   sudo ./configure
+   sudo ./configure --with-rina
    sudo make all
    sudo make install
    ```
+   To configure PEP-DNA without RINA support ommit ```--with-rina``` flag. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
