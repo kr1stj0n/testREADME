@@ -72,6 +72,10 @@ Install libnl-3-dev for Netlink sockets support.
    ```sh
    apt-get install libnl-3-dev
    ```
+Additional tools are required to configure Linux hosts, run the experiments and collect information.
+   ```sh
+   sudo apt install sysstat ethtool cpufrequtils httping httperf apache2
+   ```
 
 
 ### Installation
