@@ -92,11 +92,18 @@ Additional tools are required to configure Linux hosts, run the experiments and 
    sudo make install
    ```
 3. Configure and install PEP-DNA
-   To configure PEP-DNA with RINA support ```--with-rina``` flag needs to be used. Use ```--with-debug``` to build PEP-DNA with DEBUG flag.
-   *Note* that building in debug mode will reduce the performance of the proxy and print detailed logging in the kern.log file. When PEP-DNA runs at the same host as the server, it needs to be configured with ```---with-localhost``` flag in order to enable full transpacency at this case (More details will be provided later). For experiments, apply the following commands.
    ```sh
    cd /pep-dna/pepdna
    sudo ./configure --with-rina --with-localhost
+   sudo make all
+   sudo make install
+   ```
+
+   To configure PEP-DNA with RINA support ```--with-rina``` flag needs to be used. Use ```--with-debug``` to build PEP-DNA with DEBUG flag.
+   *Note* that building in debug mode will reduce the performance of the proxy and print detailed logging in the kern.log file. When PEP-DNA runs at the same host as the server, it needs to be configured with ```---with-localhost``` flag in order to enable full transpacency at this case (More details will be provided later). For experiments, the commands above are necessary.
+4. All the testing applications and scripts use to run the experiments, collect results and plot the graphs are located in https://github.com/kr1stj0n/pep-dna/tree/main/pepdnapps . Install them by applying the following commands.
+   ```sh
+   cd /pep-dna/pepdnapps
    sudo make all
    sudo make install
    ```
