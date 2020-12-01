@@ -19,7 +19,7 @@
     <a href="https://github.com/kr1stj0n/testREADME/wiki"><strong>Explore the Wiki »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kr1stj0n/testREADME">View Demo</a>
+    <a href="https://github.com/kr1stj0n/testREADME/wiki/Tutorials">View Tutorials</a>
     ·
     <a href="https://github.com/kr1stj0n/testREADME/issues">Report Bug</a>
     ·
