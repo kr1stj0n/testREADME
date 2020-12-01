@@ -41,7 +41,6 @@
         </ul>
         </li>
         <li><a href="#usage">Usage</a></li>
-        <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -80,7 +79,7 @@ Additional tools are required to configure Linux hosts, run the experiments and 
 
 ### Installation
 
-1. Clone the repo (We recommend to clone the repo in the root directory so that it matches the path used in the scripts)
+1. Clone the repository. We recommend to clone the repo in the root directory so that it matches the path used in the scripts.
    ```sh
    cd /
    git clone https://github.com//pep-dna.git
@@ -100,8 +99,8 @@ Additional tools are required to configure Linux hosts, run the experiments and 
    ```
 
    To configure PEP-DNA with RINA support ```--with-rina``` flag needs to be used. Use ```--with-debug``` to build PEP-DNA with DEBUG flag.
-   *Note* that building in debug mode will reduce the performance of the proxy and print detailed logging in the kern.log file. When PEP-DNA runs at the same host as the server, it needs to be configured with ```---with-localhost``` flag in order to enable full transpacency at this case (More details will be provided later). For experiments, the commands above are necessary.
-4. All the testing applications and scripts use to run the experiments, collect results and plot the graphs are located in https://github.com/kr1stj0n/pep-dna/tree/main/pepdnapps . Install them by applying the following commands.
+   *Note* that building in debug mode will reduce the performance of the proxy and print detailed logging in the kern.log file. When PEP-DNA runs at the same host as the server, it needs to be configured with ```---with-localhost``` flag in order to enable full transpacency at this case (More details will be provided later). For our experiments, the commands above are sufficient.
+4. All the testing applications and scripts used to run the experiments, collect the results and plot the graphs are located in https://github.com/kr1stj0n/pep-dna/tree/main/pepdnapps . Run the following commands to install them to ```/usr/bin/```.
    ```sh
    cd /pep-dna/pepdnapps
    sudo make all
@@ -117,14 +116,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/kr1stj0n/testREADME/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -137,11 +128,10 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL License. See `LICENSE` for more information.
+Distributed under the GPL License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
