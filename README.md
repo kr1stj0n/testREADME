@@ -33,14 +33,14 @@
 <details open="open">
         <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
         <ol>
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#build">Build instructions</a>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#build-instructions">Build instructions</a>
         <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         </ul>
         </li>
-        <li><a href="#usage">Usage</a></li>
+        <li><a href="#reproducibility">Reproducibility</a></li>
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -109,7 +109,7 @@ Additional tools are required to configure Linux hosts, run the experiments and 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Reproducibility
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
