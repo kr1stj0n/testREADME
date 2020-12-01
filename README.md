@@ -59,7 +59,7 @@ PEP-DNA is a Performance Enhancing Proxy designed specifically for Deploying new
 <!-- BUILD INSTRUCTIONS -->
 ## Build instructions
 
-We have tested PEP-DNA with Ubuntu 16.04 - 18.04, Debian 8 and 9 with kernel versions between 4.1.x and 4.19.x.
+We have tested PEP-DNA with Ubuntu 16.04, 18.04, Debian 8 and 9 with kernel versions between 4.1.x and 4.19.x. In order to run all the experiments described in the paper, PEP-DNA needs to be built with RINA support. RINA stack is available at https://github.com/IRATI/stack. We also include all the RINA kernel modules and libraries in this repository to facilitate the installation process.
 
 ### Prerequisites
 
